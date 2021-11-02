@@ -50,10 +50,11 @@ label.forEach(element=>
     for(const li of liNav)
     {
        const listCopy= document.createElement("li");
-       listCopy.innerText=li.innerText;
+       listCopy.innerText = li.innerText;
        
        siteMap.append(listCopy)
     }
+    
 
    
 
