@@ -31,13 +31,13 @@ label.forEach(element=>
     {
         element.matches('.mild') ?
 
-        element.style.border ='2px solid yellow': 
+        element.style.borderBottom ='2px solid yellow': 
 
         element.matches('.intense') ? 
 
-        element.style.border ='2px solid orange' :
+        element.style.borderBottom ='2px solid orange' :
 
-         element.style.border ='2px solid red'
+         element.style.borderBottom ='2px solid red'
     })
 
     //4
@@ -54,7 +54,7 @@ label.forEach(element=>
        
        siteMap.append(listCopy)
     }
-    
+
 
    
 
