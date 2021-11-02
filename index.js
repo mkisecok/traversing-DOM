@@ -24,6 +24,22 @@ for(let i =0; i< infoArray.length ; i++)
         }
 }
 
+//3
+const label = document.querySelectorAll('label');
+
+label.forEach(element=>
+    {
+        element.matches('.mild') ?
+
+        element.style.border ='2px solid yellow': 
+
+        element.matches('.intense') ? 
+
+        element.style.border ='2px solid orange' :
+        
+         element.style.border ='2px solid red'
+    })
+
 
 
 
