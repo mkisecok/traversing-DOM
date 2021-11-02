@@ -36,10 +36,26 @@ label.forEach(element=>
         element.matches('.intense') ? 
 
         element.style.border ='2px solid orange' :
-        
+
          element.style.border ='2px solid red'
     })
 
+    //4
+
+    
+    let liNav= Array.from(document.querySelector('.nav-list').children) 
+   
+    const siteMap = document.querySelector('.site-map');
+
+    for(const li of liNav)
+    {
+       const listCopy= document.createElement("li");
+       listCopy.innerText=li.innerText;
+       
+       siteMap.append(listCopy)
+    }
+
+   
 
 
 
