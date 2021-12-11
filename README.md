@@ -1,4 +1,5 @@
 # Extreme Travel Website!
+## Result-Link:https://mkisecok.github.io/traversing-DOM/
 
 **Instructions**:
 * Select the `header` that is the closest to the first `h1` heading. Give the `header` a solid border of 5px. ![alt text](images/header.png "Header")
@@ -12,7 +13,3 @@
 **Bonus**
 After you completed the assignment and published the solution branch, you can create a new branch `feature/restyle` and change the design of the landing-page. You can publish it on GitHub Pages when you are satisfied with the result.
 
-
-**Notes**:
-* Deadline: ~2hrs.
-* See images for reference.
